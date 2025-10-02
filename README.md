@@ -39,5 +39,3 @@ To run this project, you need to have **Python 3** installed. You will also need
 
 You can install the required libraries using **pip**:
 
-```bash
-pip install -r requirements.txt
