@@ -25,6 +25,20 @@ In this task, we build a **content-based recommendation system** using the **TMD
 ### **Task 6: Forecasting Future Sales (Time Series Analysis)**
 This task involves building a **SARIMA model** to forecast sales for the next 30 days based on historical sales data. The dataset is checked for stationarity, and if necessary, differenced to make it stationary. The model's predictions are visualized alongside historical data.
 
+Expected Outcomes
+
+Task 1: Visualizations showing the distribution of customer sales, sales by product category, and sales over time.
+
+Task 2: An interactive dashboard that displays top-selling products, sales by country, and peak shopping hours.
+
+Task 3: A churn prediction model using Logistic Regression with an accuracy score and confusion matrix.
+
+Task 4: An improved churn prediction model using Random Forest with performance metrics (Precision, Recall, F1-Score).
+
+Task 5: A content-based movie recommendation system that returns the most similar movies based on a given movie's description.
+
+Task 6: A SARIMA model that forecasts future sales for the next 30 days and visualizes the forecast alongside historical sales.
+
 ## Prerequisites
 
 To run this project, you need to have **Python 3** installed. You will also need to install the following libraries:
