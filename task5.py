@@ -1,10 +1,10 @@
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-# Load the dataset (Replace with the correct file path)
-df = pd.read_csv('tmdb_5000_movies.csv')  # Replace with your file path
+# Load the dataset 
+df = pd.read_csv('tmdb_5000_movies.csv') 
 
-# Preprocessing: Fill missing descriptions with an empty string (if any)
+# Preprocessing: Fill missing descriptions with an empty string 
 df['overview'] = df['overview'].fillna('')
 
 # Use TF-IDF Vectorizer on the 'overview' column
